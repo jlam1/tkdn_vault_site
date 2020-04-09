@@ -65,6 +65,17 @@ $(document).ready(function () {
 		}
 	});
 
+	$('.printfolio-carousel-mobile').owlCarousel({
+		loop: true,
+		autoplay: true,
+		autoHeight: true,
+		autoplayHoverPause: true,
+		nav: true,
+		navText: ["<i class='fa fa-caret-left'></i>", "<i class='fa fa-caret-right'></i>"],
+		dots: false,
+		items: 1,
+	});
+
 	$('.grid').isotope({
 		layoutMode: 'packery',
 		itemSelector: '.grid-item'
