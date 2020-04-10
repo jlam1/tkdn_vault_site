@@ -205,12 +205,15 @@ footer {
 
 .triangle-info-wrapper {
   max-width: 2200px;
-  background: url("../images/influencer/influencer_hipster.jpg");
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: right top;
   position: relative;
   overflow: hidden; }
+  .triangle-info-wrapper.influencer-bg {
+    background-image: url("../images/influencer/influencer_hipster.jpg"); }
+  .triangle-info-wrapper.corporate-bg {
+    background-image: url("../images/corporate/corporate_influencer.jpg"); }
   .triangle-info-wrapper .text-wrapper {
     min-height: 900px;
     position: relative; }
